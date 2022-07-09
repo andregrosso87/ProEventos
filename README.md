@@ -15,6 +15,10 @@ dotnet run = roda o projeto;
 
 dotnet watch run = roda o projeto e restarta qualquer alteração automaticamente;
 
+dotnet tool list --global - Mostra quais ferramentas estão instaladas;
+
+dotnet ef migrations add inicial -o Data/Migrations - Adiciona uma migrations ao Banco de Dados
+
 Controler vai se basear na rota que vai retornar o endpoint que vai ser usado.
 
 # HTTP
@@ -84,3 +88,9 @@ Conteúdo referente à Resposta
 ## JSON
 
 * Formato mais leve;
+
+## EntityFramework core 5.0.2
+ 
+Abre a extenção NuGet Gallery e instala o EntityFramework, EntityFramework Tools, EntityFramework Design, EntityFramework Sqlite 
+
+dotnet ef migrations add inicial -o Data/Migrations
